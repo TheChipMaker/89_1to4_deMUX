@@ -1,0 +1,35 @@
+vcom deMUX1to4.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:09:25 on Aug 25,2025
+# vcom -reportprogress 300 deMUX1to4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity deMUX1to4
+# -- Compiling architecture behaviour of deMUX1to4
+# End time: 13:09:25 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom deMUX1to4_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:09:28 on Aug 25,2025
+# vcom -reportprogress 300 deMUX1to4_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity deMUX1to4_tb
+# -- Compiling architecture test of deMUX1to4_tb
+# -- Loading entity deMUX1to4
+# End time: 13:09:28 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.deMUX1to4_tb
+# vsim work.deMUX1to4_tb 
+# Start time: 13:09:50 on Aug 25,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.demux1to4_tb(test)
+# Loading work.demux1to4(behaviour)
+add wave -r *
+run 14 ns
+# End time: 13:13:50 on Aug 25,2025, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 4
