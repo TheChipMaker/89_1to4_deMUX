@@ -67,4 +67,4 @@ This project is part of my VHDL learning roadmap, aimed at building **100 VHDL p
 ---
 
 ## License
-This project is released under the **MIT License**. See `LICENSE` for details.
+This project is released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
