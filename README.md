@@ -1,7 +1,8 @@
 # deMUX1to4 VHDL Project
- 
+
 ## Project Overview
 This project implements a **1-to-4 demultiplexer** in VHDL. The demux has:
+
 This project is **synthesizable** and suitable for **Synopsys tools**, and simulation is done using **ModelSim**.
 - **Inputs:**  
   - `D` : 1-bit data input  
